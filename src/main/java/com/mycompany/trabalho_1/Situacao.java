@@ -8,8 +8,16 @@ package com.mycompany.trabalho_1;
  *
  * @author Paradellas
  */
+
+/**
+ * Classe que contem metodos estáticos para controlar a situação do aluno.
+*/
 public class Situacao {
-    public String notaFinal(float Frequência,float M1,float PF){
+
+/**
+*Metodo responsável por verificar se o aluno está ou não aprovado.
+*/
+    public static String notaFinal(float Frequência,float M1,float PF){
         
         
         if(Frequência >= 75){
